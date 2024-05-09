@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+
+}
+.navLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.navLeft div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.navLeft a{
+    color: black;
+}
+.navRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 5px;
+}
+.navRight span{
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+}
